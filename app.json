@@ -1,11 +1,16 @@
 {
-  "name": "YouTube 24/7 live stream radio",
-  "description": "A sample live stream radio app",
-  "repository": "https://github.com/foxtacles/youtube-live-radio",
+  "name": "YouTube 24/7 live streamer",
+  "description": "A sample live streamer",
+  "repository": "https://github.com/ikuvamzz/youtube-live-streamer",
   "stack": "container",
   "env": {
     "YOUTUBE_KEY": {
       "description": "The YouTube live stream key to be used. Can be found in the YouTube UI",
+      "required": true
+    },
+    
+    "M3U8_URL": {
+      "description": "The m3u8 URL",
       "required": true
     }
   },
